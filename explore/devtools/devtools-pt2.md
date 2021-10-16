@@ -1,0 +1,2 @@
+1. The bug for this code is the fact that both num1 and num2 are being set as strings as opposed to int. This causes the result to just be the concatenation of each value instead of adding them up to get a larger integer. 
+2. I would fix it by simply casting both num1 and num2 to Numbers by doing Number(num1) + Number(num2) so that the operation would work smoothly.
